@@ -1,0 +1,126 @@
+body{
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #EDEDED;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+/* Typography */
+span, .bold, .about{
+    font-size: 0.813rem;
+    line-height: 16.34px;
+}
+
+span, .bold , .location, .about, .btns {
+    text-align: left;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.display-name, .location {
+    width: 307px;
+    left: 51px;
+    margin: 0px;
+}
+
+.display-name, .likes , .about {
+    height: 16px;
+}
+
+.display-name{ 
+    top: 11px;
+}
+
+.location, .about{
+    font-weight: 400;
+}
+
+.location{ 
+    height: 15px;
+    top: 27px;
+    font-size: 0.75rem;
+    line-height: 15.08px;
+}
+
+.likes{
+    margin: 2px 0px 0px 0px;
+    width: 343px;
+    top: 485px;
+    left: 13px;
+}
+
+.about{
+    margin-top: 3px;
+}
+
+span{
+    font-weight: 700;
+}
+
+
+/* Layouts */
+.user-pfp, .avatar-pfp{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.center{
+    width: 375px;
+    margin: 30px auto;
+}
+.user-pfp{  
+    top: 16px;
+    left: 325px;
+}
+
+header, .avatar-info{
+    display: flex;
+}
+
+header{
+    justify-content: space-between;
+    border-bottom: 1px solid #c6c6c6;
+    padding: 18px 15px;
+}
+
+.container{
+    height: 545px;
+    top: 67px;  
+}
+
+.avatar-info{
+    gap: 10px;
+    padding: 10px;
+}
+
+.avatar-pfp{ 
+    top: 10px;
+    left: 10px;
+}
+
+.avatar-info-container{
+    margin: 5px 0px 0px 0px;
+}
+
+.post{
+    margin-top: 3px;
+}
+
+.btns{
+    display: block;
+    margin-bottom: 0px;
+}
+
+.btn{
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus{
+    height: 30px;
+}

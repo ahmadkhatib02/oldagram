@@ -53,10 +53,9 @@ The JavaScript file handles the dynamic generation of the posts and user interac
 - A `generate` function that loops through the `posts` array and inserts post content into the HTML.
 - Event listeners for the "like" buttons that update the number of likes when clicked.
 
-## Demo Video
-Watch a short demo below:
+## Website
 
-![Oldagram Demo](videos/demo.mp4)
+You can check out the website [here](https://oldagram01.netlify.app/).
 
 ## Future Improvements
 

@@ -81,6 +81,9 @@ header, .avatar-info{
     display: flex;
 }
 
+.btns, .likes, .about{
+    margin-left: 10px;
+}
 header{
     justify-content: space-between;
     background-color: #fff;

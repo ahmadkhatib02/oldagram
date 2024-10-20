@@ -83,6 +83,7 @@ header, .avatar-info{
 
 header{
     justify-content: space-between;
+    background-color: #fff;
     border-bottom: 1px solid #c6c6c6;
     padding: 18px 15px;
 }
@@ -90,6 +91,8 @@ header{
 .container{
     height: 545px;
     top: 67px;  
+    background-color: #fff;
+    margin-bottom: 25px;
 }
 
 .avatar-info{
